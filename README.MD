@@ -4,13 +4,13 @@
  - ArrayList
  > 可以动态增长，允许再分配，缺点是删除元素时代价大
  - Vector
-  - Stack
+  + Stack
  - LinkedList
  > 从链表中删除元素很容易，JAVA中都是doubly linked
 ## Set
 > 没有顺序，不能包含重复元素
  - HashSet: 使用HASH算法来存储，有良好的存取查找性能，使用.equals()方法比较相等
-  - LinkedHashSet: 使用链表保存元素次序的HashSet
+  + LinkedHashSet: 使用链表保存元素次序的HashSet
 2.2.SortedSet: 排序操作
 2.2.1TreeSet:
 2.3.EnumSet: 枚举类
