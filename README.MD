@@ -1,13 +1,16 @@
 # JAVA Collection各接口的特性和应用场景
-## List
+1. List
 > 有序可重复的集合，每个元素都有对应的索引
- * ArrayList: 可以动态增长，允许再分配，缺点是删除元素时代价大
- * Vector:
-  ** Stack
-*. LinkedList: 从链表中删除元素很容易，JAVA中都是doubly linked
-2.Set: 没有顺序，不能包含重复元素
-2.1.HashSet: 使用HASH算法来存储，有良好的存取查找性能，使用.equals()方法比较相等
-2.1.1.LinkedHashSet: 使用链表保存元素次序的HashSet
+ - ArrayList
+ > 可以动态增长，允许再分配，缺点是删除元素时代价大
+ - Vector
+  - Stack
+ - LinkedList
+ > 从链表中删除元素很容易，JAVA中都是doubly linked
+## Set
+> 没有顺序，不能包含重复元素
+ - HashSet: 使用HASH算法来存储，有良好的存取查找性能，使用.equals()方法比较相等
+  - LinkedHashSet: 使用链表保存元素次序的HashSet
 2.2.SortedSet: 排序操作
 2.2.1TreeSet:
 2.3.EnumSet: 枚举类
