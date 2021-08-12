@@ -13,7 +13,7 @@
  > - 使用HASH算法来存储，有良好的存取查找性能
  > - 使用.equals()方法比较相等
  >> LinkedHashSet
- >> - 使用链表保存元素次序的HashSet;
+ >> - 使用链表保存元素次序
 > SortedSet
  > - 排序操作
  >> TreeSet:
