@@ -14,7 +14,7 @@
  > - 使用.equals()方法比较相等
  >> LinkedHashSet
  >> - 使用链表保存元素次序的HashSet
- > SortedSet
+ >  SortedSet
  > - 排序操作
  >> TreeSet:
  > EnumSet
