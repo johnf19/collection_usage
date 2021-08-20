@@ -1,4 +1,7 @@
 # Java Collection Framework
+> See also:  
+ [*java practice*](https://github.com/johnf19/java_practice)  
+ [*C++ practice*](https://github.com/johnf19/cpp_practice)
 ## ``interface`` `Iterable`
 ### `interface` `Collection`
 
@@ -104,3 +107,5 @@
  > 3. `class` `EnumMap`
  > 4. `class` `WeakHashMap`
  > 5. `class` `IdentityHashMap` 
+
+August 2021
